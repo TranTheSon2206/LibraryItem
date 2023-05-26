@@ -16,7 +16,7 @@ namespace _26_5._1
         }
         public override string ToString()
         {
-            return "Type: " + GetType().Name + ",Title: " + title + ",by Auhthor: " + author + ",Publication Year: " + publicationYear+",Material: "+material;
+            return "Type:" + GetType().Name + ", Title:" + title + ", by Auhthor:" + author + ", Publication Year:" + publicationYear+", Material:"+material;
         }
     }
 }
